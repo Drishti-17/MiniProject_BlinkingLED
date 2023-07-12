@@ -1,0 +1,18 @@
+# MiniProject_BlinkingLED
+
+// C++ code
+//
+
+int Led1=13;
+void setup()
+{
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(Led1, HIGH);
+  delay(1000); // Wait for 1000 millisecond(s)
+  digitalWrite(Led1, LOW);
+  delay(1000); // Wait for 1000 millisecond(s)
+}
